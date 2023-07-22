@@ -8,6 +8,8 @@ app.use(express.json())
 
 app.use(routes.creatCar)
 
+app.use(routes.listcars)
+
 
 app.listen(3000, () =>{
     console.log('servidor inicializado')
